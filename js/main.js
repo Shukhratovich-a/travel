@@ -16,7 +16,7 @@ var museum = 120 * euroCourse;
 // Total summ 
 var total = ticket + hotel + museum;
 
-if (haveMoney >= total) {
+if (total <= haveMoney) {
   elResult.textContent = "Oq yo\'l, Alisher!";
 }
 else {
